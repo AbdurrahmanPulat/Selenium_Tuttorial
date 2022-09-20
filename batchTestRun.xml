@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM  "https://testng.org/testng-1.0.dtd">
+<suite name="run specific package">
+<test name="package">
+
+    <packages>
+        <package name="Tuttorial7.TestNgFramework"></package>
+    </packages>
+</test>
+
+
+    <test name="special class test">
+        <classes>
+            <class name="Tuttorial4.Junit.Before_After_Notation"></class>
+        </classes>
+    </test>
+    
+</suite>
